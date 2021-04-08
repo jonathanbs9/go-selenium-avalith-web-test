@@ -67,6 +67,18 @@ func hagoClickEnElEnlaceCareers() error {
 	return nil
 }
 
+func hagoClickEnElEnlaceOurPartners() error {
+	ourPartnerXPATH := `//*[@id="gatsby-focus-wrapper"]/div/div/div/div/ul/li[4]/a`
+	ourPartner, err := Driver.FindElement(selenium.ByXPATH, ourPartnerXPATH)
+	if err != nil {
+		log.Println("Error al hacer click en OurPartners", err.Error())
+	}
+
+	ourPartner.Click()
+	Driver.SetImplicitWaitTimeout(time.Second * 10)
+	return nil
+}
+
 func estoyEnLaPginaAboutUsConTexto(text string) error {
 	aboutUsdiv, err := Driver.FindElement(selenium.ByCSSSelector, `#gatsby-focus-wrapper > div > main > div.container.mx-auto.md\:mt-20.px-6 > section.flex.flex-col-reverse.lg\:flex-row.items-center > div:nth-child(1) > h3`)
 	if err != nil {
@@ -104,6 +116,18 @@ func estoyEnLaPginaCareersConTexto(careerText string) error {
 		log.Fatalf("mensaje obtenido : %s  | Mensaje esperado: %s", careerElementText, careerText)
 	}
 
+	return nil
+}
+
+func estoyEnLaPginaOurPartnersConTexto(ourPartnerText string) error {
+	ourPartnerElement, err := Driver.FindElement(selenium.ByCSSSelector, `#gatsby-focus-wrapper > div > main > section.container.mx-auto.px-6.py-12 > p`)
+	if err != nil {
+		log.Println("Error al obtener elemento dentro de la página Our Partners | ", err.Error())
+	}
+	ourPartnerElementText, _ := ourPartnerElement.Text()
+	if ourPartnerElementText != ourPartnerText {
+		log.Fatalf("mensaje obtenido : %v  | Mensaje esperado: %v", ourPartnerElementText, ourPartnerText)
+	}
 	return nil
 }
 
@@ -158,10 +182,12 @@ func InitializeScenario(ctx *godog.ScenarioContext) {
 	ctx.Step(`^hago click en el enlance About Us$`, hagoClickEnElEnlanceAboutUs)
 	ctx.Step(`^hago click en el enlace Services$`, hagoClickEnElEnlaceServices)
 	ctx.Step(`^hago click en el enlace careers$`, hagoClickEnElEnlaceCareers)
+	ctx.Step(`^hago click en el enlace our partners$`, hagoClickEnElEnlaceOurPartners)
 
 	ctx.Step(`^estoy en la página About Us con texto "([^"]*)"$`, estoyEnLaPginaAboutUsConTexto)
 	ctx.Step(`^estoy en la página Services con texto "([^"]*)"$`, estoyEnLaPginaServicesConTexto)
 	ctx.Step(`^estoy en la página careers con texto "([^"]*)"$`, estoyEnLaPginaCareersConTexto)
+	ctx.Step(`^estoy en la página Our Partners con texto "([^"]*)"$`, estoyEnLaPginaOurPartnersConTexto)
 
 	// Invalid Email
 	ctx.Step(`^ingreso un email con formato incorrecto "([^"]*)"$`, ingresoUnEmailConFormatoIncorrecto)
