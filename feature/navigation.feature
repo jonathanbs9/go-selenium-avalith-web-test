@@ -21,21 +21,21 @@ Feature: Navegación
         Given accedo a la pagina principal
         When hago click en el menu
         And hago click en el enlace careers
-        Then estoy en la página careers con texto ""
+        Then estoy en la página careers con texto "Improve your skills and boost your genius."
 
-    @OurPartners
-    Scenario: Navegacion a Our Partners
-        Given accedo a la pagina principal
-        When hago click en el menu
-        And hago click en el enlace our partners
-        Then estoy en la página Our Partners con texto ""
+    #@OurPartners
+    #Scenario: Navegacion a Our Partners
+    #    Given accedo a la pagina principal
+    #    When hago click en el menu
+    #    And hago click en el enlace our partners
+    #    Then estoy en la página Our Partners con texto ""
 
-    @ContactUs
-    Scenario: Navegacion a Contact Us
-        Given accedo a la pagina principal
-        When hago click en el menu
-        And hago click en el enlace Contact Us 
-        Then estoy en la página Contact Us con texto ""
+    #@ContactUs
+    #Scenario: Navegacion a Contact Us
+    #    Given accedo a la pagina principal
+    #    When hago click en el menu
+    #    And hago click en el enlace Contact Us 
+    #    Then estoy en la página Contact Us con texto ""
 
     @InvalidEmailSubscription
     Scenario: Email inválido

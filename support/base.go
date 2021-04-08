@@ -24,12 +24,14 @@ func WDInit() selenium.WebDriver {
 	if err != nil {
 		log.Println("Error al comenzar el servidor ChromeDriver ...", err.Error())
 	}
-
 	defer service.Stop()
+
 	caps := selenium.Capabilities(map[string]interface{}{"browserName": "chrome"})
 	driver, err := selenium.NewRemote(caps, "")
 	if err != nil {
 		log.Println("(support/base) | Error al instanciar driver Selenium -> ", err.Error())
 	}
+	driver.MaximizeWindow("")
+
 	return driver
 }
