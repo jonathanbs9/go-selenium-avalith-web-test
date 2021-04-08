@@ -23,12 +23,12 @@ Feature: Navegación
         And hago click en el enlace careers
         Then estoy en la página careers con texto "Improve your skills and boost your genius."
 
-    #@OurPartners
-    #Scenario: Navegacion a Our Partners
-    #    Given accedo a la pagina principal
-    #    When hago click en el menu
-    #    And hago click en el enlace our partners
-    #    Then estoy en la página Our Partners con texto ""
+    @OurPartners
+    Scenario: Navegacion a Our Partners
+        Given accedo a la pagina principal
+        When hago click en el menu
+        And hago click en el enlace our partners
+        Then estoy en la página Our Partners con texto "Renowned companies around the world are part of our ally network. We have more than 50 Partners who rely on us for software development."
 
     #@ContactUs
     #Scenario: Navegacion a Contact Us
