@@ -3,7 +3,9 @@
 To generate the report
 
 
-```$godog feature/navigation.feature --format=cucumber > log/report.json
 ```
+$godog feature/navigation.feature --format=cucumber > log/report.json
 
 ```
+
+
