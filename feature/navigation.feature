@@ -30,12 +30,12 @@ Feature: Navegación
         And hago click en el enlace our partners
         Then estoy en la página Our Partners con texto "Renowned companies around the world are part of our ally network. We have more than 50 Partners who rely on us for software development."
 
-    #@ContactUs
-    #Scenario: Navegacion a Contact Us
-    #    Given accedo a la pagina principal
-    #    When hago click en el menu
-    #    And hago click en el enlace Contact Us 
-    #    Then estoy en la página Contact Us con texto ""
+    @ContactUs
+    Scenario: Navegacion a Contact Us
+        Given accedo a la pagina principal
+        When hago click en el menu
+        And hago click en el enlace Contact Us 
+        Then estoy en la página Contact Us con texto "We want to know more about you!. Write to us at hello@avalith.net or leave us your information and we will get in touch!"
 
     @InvalidEmailSubscription
     Scenario: Email inválido
