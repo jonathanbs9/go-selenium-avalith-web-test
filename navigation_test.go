@@ -149,8 +149,7 @@ func estoyEnLaPginaContactUsConTexto(contactUsText string) error {
 		log.Println("Error al obtener elemento Contact Us | ", err.Error())
 	}
 	contactUsElementText, _ := contactUsElement.Text()
-	log.Println(contactUsElement.Text())
-	log.Println(contactUsText)
+
 	if contactUsElementText != contactUsText {
 		return fmt.Errorf("mensaje obtenido : %s  | Mensaje esperado: %s", contactUsElementText, contactUsText)
 	}
