@@ -79,6 +79,17 @@ func hagoClickEnElEnlaceOurPartners() error {
 	return nil
 }
 
+func hagoClickEnElEnlaceContactUs() error {
+	contactUsPath := `//*[@id="gatsby-focus-wrapper"]/div/div/div/div/ul/li[5]/a`
+	contactUs, err := Driver.FindElement(selenium.ByXPATH, contactUsPath)
+	if err != nil {
+		log.Println("Error al obtener enlance a Contact Us | ", err.Error())
+	}
+	contactUs.Click()
+	Driver.SetImplicitWaitTimeout(time.Second * 10)
+	return nil
+}
+
 func estoyEnLaPginaAboutUsConTexto(text string) error {
 	aboutUsdiv, err := Driver.FindElement(selenium.ByCSSSelector, `#gatsby-focus-wrapper > div > main > div.container.mx-auto.md\:mt-20.px-6 > section.flex.flex-col-reverse.lg\:flex-row.items-center > div:nth-child(1) > h3`)
 	if err != nil {
@@ -131,6 +142,21 @@ func estoyEnLaPginaOurPartnersConTexto(ourPartnerText string) error {
 	return nil
 }
 
+func estoyEnLaPginaContactUsConTexto(contactUsText string) error {
+	Driver.SetImplicitWaitTimeout(time.Second * 10)
+	contactUsElement, err := Driver.FindElement(selenium.ByCSSSelector, `#gatsby-focus-wrapper > div > main > section > div.flex.flex-col.md\:flex-row.items-center.pb-12 > div > p`)
+	if err != nil {
+		log.Println("Error al obtener elemento Contact Us | ", err.Error())
+	}
+	contactUsElementText, _ := contactUsElement.Text()
+	log.Println(contactUsElement.Text())
+	log.Println(contactUsText)
+	if contactUsElementText != contactUsText {
+		return fmt.Errorf("mensaje obtenido : %s  | Mensaje esperado: %s", contactUsElementText, contactUsText)
+	}
+	return nil
+}
+
 func ingresoUnEmailConFormatoIncorrecto(invalidEmail string) error {
 	campoEmail, err := Driver.FindElement(selenium.ByXPATH, `//*[@id="gatsby-focus-wrapper"]/div/footer/div[1]/div[2]/form/input`)
 	if err != nil {
@@ -178,16 +204,18 @@ func InitializeScenario(ctx *godog.ScenarioContext) {
 	ctx.Step(`^accedo a la pagina principal$`, accedoALaPaginaPrincipal)
 	ctx.Step(`^hago click en el menu$`, hagoClickEnElMenu)
 
-	// About Us - Services
+	// About Us - Services - Careers - Our Patners - Contact Us
 	ctx.Step(`^hago click en el enlance About Us$`, hagoClickEnElEnlanceAboutUs)
 	ctx.Step(`^hago click en el enlace Services$`, hagoClickEnElEnlaceServices)
 	ctx.Step(`^hago click en el enlace careers$`, hagoClickEnElEnlaceCareers)
 	ctx.Step(`^hago click en el enlace our partners$`, hagoClickEnElEnlaceOurPartners)
+	ctx.Step(`^hago click en el enlace Contact Us$`, hagoClickEnElEnlaceContactUs)
 
 	ctx.Step(`^estoy en la página About Us con texto "([^"]*)"$`, estoyEnLaPginaAboutUsConTexto)
 	ctx.Step(`^estoy en la página Services con texto "([^"]*)"$`, estoyEnLaPginaServicesConTexto)
 	ctx.Step(`^estoy en la página careers con texto "([^"]*)"$`, estoyEnLaPginaCareersConTexto)
 	ctx.Step(`^estoy en la página Our Partners con texto "([^"]*)"$`, estoyEnLaPginaOurPartnersConTexto)
+	ctx.Step(`^estoy en la página Contact Us con texto "([^"]*)"$`, estoyEnLaPginaContactUsConTexto)
 
 	// Invalid Email
 	ctx.Step(`^ingreso un email con formato incorrecto "([^"]*)"$`, ingresoUnEmailConFormatoIncorrecto)
