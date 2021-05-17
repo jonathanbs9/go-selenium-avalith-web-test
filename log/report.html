@@ -280,7 +280,7 @@ pre {
           <div class="project-name visible-md visible-lg">go-selenium-avalith-web-test</div>
           <div class="label-container">
             <span class="label label-success" onclick="toggle('.feature-passed')" title=scenarios>Passed: 6</span>
-            <span class="label label-danger" onclick="toggle('.feature-failed')" title=scenarios>Failed: 0</span>
+            <span class="label label-danger" onclick="toggle('.feature-failed')" title=scenarios>Failed: 2</span>
           </div>
         </div>
       </div>
@@ -288,7 +288,7 @@ pre {
 
     <div class="container">
 
-      <div class="generated-on">Thu Apr 08 2021 11:39:47 GMT-0300 (GMT-03:00)</div>
+      <div class="generated-on">Fri Apr 30 2021 17:30:46 GMT-0300 (GMT-03:00)</div>
 
       <div class="row">
         <div class="chart col-lg-6 col-md-6" id="piechart_features"></div>
@@ -371,22 +371,24 @@ pre {
 <div class="row" xmlns="http://www.w3.org/1999/html">
 
 
-<div class="feature-passed">
+<div class="feature-failed">
 
     <div class="col-lg-6 col-md-6">
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h4 class="panel-title">
                     
-                    <a data-toggle="collapse" href="#collapseFeaturego_selenium_avalith_web_test84d3f133-7351-421f-813d-3d40e8d7a240">
+                    <a data-toggle="collapse" href="#collapseFeaturego_selenium_avalith_web_test4959cab8-9cd9-4794-a0ee-a6dd3eee6fb8">
                         <i class="glyphicon glyphicon-chevron-right"></i>
                         <i class="glyphicon glyphicon-chevron-down"></i>
                         <b>Feature:</b>Navegación
                         <span class="label-container">
               <span class="label label-success"
                                                          title="6 Scenarios Passed">6</span>
-              
-              
+              <span class="label label-danger"
+                                                         title="2 Scenarios Failed">2</span>
+              <span class="label label-info"
+                                                             title="1 Scenarios Undefined">1</span>
               
               
               
@@ -394,7 +396,7 @@ pre {
                     </a>
                 </h4>
             </div>
-            <div id="collapseFeaturego_selenium_avalith_web_test84d3f133-7351-421f-813d-3d40e8d7a240" class="panel-collapse collapse">
+            <div id="collapseFeaturego_selenium_avalith_web_test4959cab8-9cd9-4794-a0ee-a6dd3eee6fb8" class="panel-collapse collapse">
                 <div class="panel-body">
                     
                     <div class="description">    Para que pueda acceder a la pagína<br/>    Siendo un usuario cualquiera</div>
@@ -410,10 +412,10 @@ pre {
                                     
                                 </div>
                                 
-                                <a data-toggle="collapse" href="#collapseScenariogo_selenium_avalith_web_test57e57f75-6027-491a-89e1-10043cc7c607">
+                                <a data-toggle="collapse" href="#collapseScenariogo_selenium_avalith_web_test74bf34ce-c9fc-48c3-b780-1e62f525bb1b">
                                     <div>
 
-                                        <div style="padding-right: 30px">
+                                        <div style="padding-right: 70px">
                                             <i class="glyphicon glyphicon-chevron-right"></i>
                                             <i class="glyphicon glyphicon-chevron-down"></i>
                                             <b>Scenario:</b>Navegacion a About Us
@@ -421,10 +423,12 @@ pre {
                                         <div>
                             <span class="label-container">
                               <span class="label label-success"
-                                                               title="4 Steps Passed">4</span>
+                                                               title="2 Steps Passed">2</span>
+                              <span class="label label-info"
+                                                                   title="1 Steps Undefined">1</span>
                               
-                              
-                              
+                              <span class="label label-warning"
+                                                                title="1 Steps Skipped">1</span>
                               
                               
                             </span>
@@ -434,7 +438,7 @@ pre {
                                 </a>
                             </h4>
                         </div>
-                        <div id="collapseScenariogo_selenium_avalith_web_test57e57f75-6027-491a-89e1-10043cc7c607"
+                        <div id="collapseScenariogo_selenium_avalith_web_test74bf34ce-c9fc-48c3-b780-1e62f525bb1b"
                              class="panel-collapse collapse">
                             <div class="panel-body">
                                 <div></div>
@@ -455,7 +459,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               2s 16ms
+                               865ms
                               </span>
                             
                          
@@ -491,7 +495,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               33ms
+                               86ms
                               </span>
                             
                          
@@ -517,8 +521,8 @@ pre {
                                 <div class="row steps">
                                     
                                     
-                                    <span class="label label-success" title="Success"><i
-                                            class="glyphicon glyphicon-ok"></i></span>
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
                                     
                                     
                                     <span class="text">
@@ -527,7 +531,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               97ms
+                               0s
                               </span>
                             
                          
@@ -536,6 +540,13 @@ pre {
                       </span>
                                 
                                 
+                                <pre class=info>
+<br>Then(/^hago click en el enlance About Us$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
 
                                     
 
@@ -553,8 +564,8 @@ pre {
                                 <div class="row steps">
                                     
                                     
-                                    <span class="label label-success" title="Success"><i
-                                            class="glyphicon glyphicon-ok"></i></span>
+                                    <span class="label label-warning" title="Skipped"><i
+                                            class="glyphicon glyphicon-minus"></i></span>
                                     
                                     
                                     <span class="text">
@@ -563,7 +574,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               453ms
+                               0s
                               </span>
                             
                          
@@ -598,7 +609,7 @@ pre {
                                     
                                 </div>
                                 
-                                <a data-toggle="collapse" href="#collapseScenariogo_selenium_avalith_web_test4f776839-5d2b-4796-a0d5-9e3a5af5b477">
+                                <a data-toggle="collapse" href="#collapseScenariogo_selenium_avalith_web_testf241556d-d3b4-400f-a3ac-4048c0657238">
                                     <div>
 
                                         <div style="padding-right: 30px">
@@ -622,7 +633,7 @@ pre {
                                 </a>
                             </h4>
                         </div>
-                        <div id="collapseScenariogo_selenium_avalith_web_test4f776839-5d2b-4796-a0d5-9e3a5af5b477"
+                        <div id="collapseScenariogo_selenium_avalith_web_testf241556d-d3b4-400f-a3ac-4048c0657238"
                              class="panel-collapse collapse">
                             <div class="panel-body">
                                 <div></div>
@@ -643,7 +654,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               2s 2ms
+                               687ms
                               </span>
                             
                          
@@ -679,7 +690,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               32ms
+                               201ms
                               </span>
                             
                          
@@ -715,7 +726,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               99ms
+                               299ms
                               </span>
                             
                          
@@ -751,7 +762,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               340ms
+                               57ms
                               </span>
                             
                          
@@ -786,7 +797,7 @@ pre {
                                     
                                 </div>
                                 
-                                <a data-toggle="collapse" href="#collapseScenariogo_selenium_avalith_web_testa44f9943-f9e9-4f36-b135-b88c0a194520">
+                                <a data-toggle="collapse" href="#collapseScenariogo_selenium_avalith_web_testf92da3c4-6469-4102-b1e9-a7cad8ea544a">
                                     <div>
 
                                         <div style="padding-right: 30px">
@@ -810,7 +821,7 @@ pre {
                                 </a>
                             </h4>
                         </div>
-                        <div id="collapseScenariogo_selenium_avalith_web_testa44f9943-f9e9-4f36-b135-b88c0a194520"
+                        <div id="collapseScenariogo_selenium_avalith_web_testf92da3c4-6469-4102-b1e9-a7cad8ea544a"
                              class="panel-collapse collapse">
                             <div class="panel-body">
                                 <div></div>
@@ -831,7 +842,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               2s 10ms
+                               769ms
                               </span>
                             
                          
@@ -867,7 +878,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               33ms
+                               118ms
                               </span>
                             
                          
@@ -903,7 +914,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               100ms
+                               267ms
                               </span>
                             
                          
@@ -939,7 +950,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               428ms
+                               27ms
                               </span>
                             
                          
@@ -974,10 +985,10 @@ pre {
                                     
                                 </div>
                                 
-                                <a data-toggle="collapse" href="#collapseScenariogo_selenium_avalith_web_testac39264a-577a-4066-930e-a7e551735164">
+                                <a data-toggle="collapse" href="#collapseScenariogo_selenium_avalith_web_test657c1c78-de85-405d-a7eb-8185d0d8dd82">
                                     <div>
 
-                                        <div style="padding-right: 30px">
+                                        <div style="padding-right: 50px">
                                             <i class="glyphicon glyphicon-chevron-right"></i>
                                             <i class="glyphicon glyphicon-chevron-down"></i>
                                             <b>Scenario:</b>Navegacion a Our Partners
@@ -985,11 +996,12 @@ pre {
                                         <div>
                             <span class="label-container">
                               <span class="label label-success"
-                                                               title="4 Steps Passed">4</span>
+                                                               title="3 Steps Passed">3</span>
                               
                               
                               
-                              
+                              <span class="label label-danger"
+                                                               title="1 Steps Failed">1</span>
                               
                             </span>
                                         </div>
@@ -998,7 +1010,7 @@ pre {
                                 </a>
                             </h4>
                         </div>
-                        <div id="collapseScenariogo_selenium_avalith_web_testac39264a-577a-4066-930e-a7e551735164"
+                        <div id="collapseScenariogo_selenium_avalith_web_test657c1c78-de85-405d-a7eb-8185d0d8dd82"
                              class="panel-collapse collapse">
                             <div class="panel-body">
                                 <div></div>
@@ -1019,7 +1031,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               2s 284ms
+                               658ms
                               </span>
                             
                          
@@ -1055,7 +1067,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               30ms
+                               147ms
                               </span>
                             
                          
@@ -1091,7 +1103,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               95ms
+                               342ms
                               </span>
                             
                          
@@ -1117,8 +1129,8 @@ pre {
                                 <div class="row steps">
                                     
                                     
-                                    <span class="label label-success" title="Success"><i
-                                            class="glyphicon glyphicon-ok"></i></span>
+                                    <span class="label label-danger" title="Failed"><i
+                                            class="glyphicon glyphicon-remove"></i></span>
                                     
                                     
                                     <span class="text">
@@ -1127,7 +1139,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               354ms
+                               10s 16ms
                               </span>
                             
                          
@@ -1136,6 +1148,46 @@ pre {
                       </span>
                                 
                                 
+
+                                    
+                                    <a href="#error0_33"
+                                       data-toggle="collapse" class="toggle">Show Error +</a>
+                                    <div id="error0_33"
+                                         class="collapse">
+                                        <pre class="info show-modal"
+                                             data-toggle="modal"
+                                             style="cursor: pointer"
+                                             data-target="#error-modal-0_33">
+                                            <br> runtime error: invalid memory address or nil pointer dereference</pre>
+                                    </div>
+
+                                <div class="modal fade" id="error-modal-0_33" tabindex="-1" role="dialog"
+                                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                                </button>
+                                                <h4 class="modal-title" id="error-modal-title">
+                                                    Error
+                                                </h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <h5>
+                                                    <pre><br>runtime error: invalid memory address or nil pointer dereference</pre>
+                                                </h5>
+                                            </div>
+
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                                    Close
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
 
                                     
 
@@ -1162,7 +1214,7 @@ pre {
                                     
                                 </div>
                                 
-                                <a data-toggle="collapse" href="#collapseScenariogo_selenium_avalith_web_testd75032fb-e30f-4512-9cce-1a6bf845ef17">
+                                <a data-toggle="collapse" href="#collapseScenariogo_selenium_avalith_web_test034da47b-c391-4202-a97c-01333cc44a4a">
                                     <div>
 
                                         <div style="padding-right: 30px">
@@ -1186,7 +1238,7 @@ pre {
                                 </a>
                             </h4>
                         </div>
-                        <div id="collapseScenariogo_selenium_avalith_web_testd75032fb-e30f-4512-9cce-1a6bf845ef17"
+                        <div id="collapseScenariogo_selenium_avalith_web_test034da47b-c391-4202-a97c-01333cc44a4a"
                              class="panel-collapse collapse">
                             <div class="panel-body">
                                 <div></div>
@@ -1207,7 +1259,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               2s 193ms
+                               696ms
                               </span>
                             
                          
@@ -1243,7 +1295,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               32ms
+                               149ms
                               </span>
                             
                          
@@ -1279,7 +1331,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               97ms
+                               231ms
                               </span>
                             
                          
@@ -1315,7 +1367,311 @@ pre {
                             
                           
                               <span class="step-duration">
-                               202ms
+                               64ms
+                              </span>
+                            
+                         
+                          <!-- Adding data table data-->
+                          
+                      </span>
+                                
+                                
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                
+                                
+                                <div class="tags"> <span class="tag"> @PrivacyPolicy</span>
+                                    
+                                </div>
+                                
+                                <a data-toggle="collapse" href="#collapseScenariogo_selenium_avalith_web_testd1d9768b-f818-4d1f-b3ab-25501fceac7f">
+                                    <div>
+
+                                        <div style="padding-right: 30px">
+                                            <i class="glyphicon glyphicon-chevron-right"></i>
+                                            <i class="glyphicon glyphicon-chevron-down"></i>
+                                            <b>Scenario:</b>Privacy Policy
+                                        </div>
+                                        <div>
+                            <span class="label-container">
+                              <span class="label label-success"
+                                                               title="3 Steps Passed">3</span>
+                              
+                              
+                              
+                              
+                              
+                            </span>
+                                        </div>
+                                    </div>
+                                    <div><small><i></i></small></div>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseScenariogo_selenium_avalith_web_testd1d9768b-f818-4d1f-b3ab-25501fceac7f"
+                             class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div></div>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">Given </span>
+                          <span> accedo a la pagina principal</span>
+                            
+                          
+                              <span class="step-duration">
+                               505ms
+                              </span>
+                            
+                         
+                          <!-- Adding data table data-->
+                          
+                      </span>
+                                
+                                
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">When </span>
+                          <span> hago click en privacy policy</span>
+                            
+                          
+                              <span class="step-duration">
+                               223ms
+                              </span>
+                            
+                         
+                          <!-- Adding data table data-->
+                          
+                      </span>
+                                
+                                
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">Then </span>
+                          <span> estoy en la pagina de privacy policy con titulo &quot;We collect different types of information for various purposes, including but not limited to providing and improving our Site and services.&quot;</span>
+                            
+                          
+                              <span class="step-duration">
+                               308ms
+                              </span>
+                            
+                         
+                          <!-- Adding data table data-->
+                          
+                      </span>
+                                
+                                
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                
+                                
+                                <div class="tags"> <span class="tag"> @TermsOfUse</span>
+                                    
+                                </div>
+                                
+                                <a data-toggle="collapse" href="#collapseScenariogo_selenium_avalith_web_test882cbd47-b1f4-413d-96fb-fffcd798e37f">
+                                    <div>
+
+                                        <div style="padding-right: 30px">
+                                            <i class="glyphicon glyphicon-chevron-right"></i>
+                                            <i class="glyphicon glyphicon-chevron-down"></i>
+                                            <b>Scenario:</b>Terms of use
+                                        </div>
+                                        <div>
+                            <span class="label-container">
+                              <span class="label label-success"
+                                                               title="3 Steps Passed">3</span>
+                              
+                              
+                              
+                              
+                              
+                            </span>
+                                        </div>
+                                    </div>
+                                    <div><small><i></i></small></div>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseScenariogo_selenium_avalith_web_test882cbd47-b1f4-413d-96fb-fffcd798e37f"
+                             class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div></div>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">Given </span>
+                          <span> accedo a la pagina principal</span>
+                            
+                          
+                              <span class="step-duration">
+                               495ms
+                              </span>
+                            
+                         
+                          <!-- Adding data table data-->
+                          
+                      </span>
+                                
+                                
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">When </span>
+                          <span> hago click en terms of use</span>
+                            
+                          
+                              <span class="step-duration">
+                               222ms
+                              </span>
+                            
+                         
+                          <!-- Adding data table data-->
+                          
+                      </span>
+                                
+                                
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">Then </span>
+                          <span> estoy en la pagina de terms of use con titulo &quot;Site Rules&quot;</span>
+                            
+                          
+                              <span class="step-duration">
+                               98ms
                               </span>
                             
                          
@@ -1350,10 +1706,10 @@ pre {
                                     
                                 </div>
                                 
-                                <a data-toggle="collapse" href="#collapseScenariogo_selenium_avalith_web_test26d7c42d-9e84-4737-ba0f-48ecbf0a8a56">
+                                <a data-toggle="collapse" href="#collapseScenariogo_selenium_avalith_web_testd428a4da-bfdf-4844-a11b-78786b6313dd">
                                     <div>
 
-                                        <div style="padding-right: 30px">
+                                        <div style="padding-right: 50px">
                                             <i class="glyphicon glyphicon-chevron-right"></i>
                                             <i class="glyphicon glyphicon-chevron-down"></i>
                                             <b>Scenario:</b>Email inválido
@@ -1361,11 +1717,12 @@ pre {
                                         <div>
                             <span class="label-container">
                               <span class="label label-success"
-                                                               title="4 Steps Passed">4</span>
+                                                               title="3 Steps Passed">3</span>
                               
                               
                               
-                              
+                              <span class="label label-danger"
+                                                               title="1 Steps Failed">1</span>
                               
                             </span>
                                         </div>
@@ -1374,7 +1731,7 @@ pre {
                                 </a>
                             </h4>
                         </div>
-                        <div id="collapseScenariogo_selenium_avalith_web_test26d7c42d-9e84-4737-ba0f-48ecbf0a8a56"
+                        <div id="collapseScenariogo_selenium_avalith_web_testd428a4da-bfdf-4844-a11b-78786b6313dd"
                              class="panel-collapse collapse">
                             <div class="panel-body">
                                 <div></div>
@@ -1395,7 +1752,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               2s 257ms
+                               671ms
                               </span>
                             
                          
@@ -1431,7 +1788,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               57ms
+                               141ms
                               </span>
                             
                          
@@ -1467,7 +1824,307 @@ pre {
                             
                           
                               <span class="step-duration">
-                               33ms
+                               83ms
+                              </span>
+                            
+                         
+                          <!-- Adding data table data-->
+                          
+                      </span>
+                                
+                                
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-danger" title="Failed"><i
+                                            class="glyphicon glyphicon-remove"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">Then </span>
+                          <span> aparece un mensaje &quot;The email you entered is not valid.&quot;</span>
+                            
+                          
+                              <span class="step-duration">
+                               5s 62ms
+                              </span>
+                            
+                         
+                          <!-- Adding data table data-->
+                          
+                      </span>
+                                
+                                
+
+                                    
+                                    <a href="#error0_73"
+                                       data-toggle="collapse" class="toggle">Show Error +</a>
+                                    <div id="error0_73"
+                                         class="collapse">
+                                        <pre class="info show-modal"
+                                             data-toggle="modal"
+                                             style="cursor: pointer"
+                                             data-target="#error-modal-0_73">
+                                            <br> runtime error: invalid memory address or nil pointer dereference</pre>
+                                    </div>
+
+                                <div class="modal fade" id="error-modal-0_73" tabindex="-1" role="dialog"
+                                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                                </button>
+                                                <h4 class="modal-title" id="error-modal-title">
+                                                    Error
+                                                </h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <h5>
+                                                    <pre><br>runtime error: invalid memory address or nil pointer dereference</pre>
+                                                </h5>
+                                            </div>
+
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                                    Close
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                
+                                
+                                <div class="tags"> <span class="tag"> @ContactUsAlternative1</span>
+                                    
+                                </div>
+                                
+                                <a data-toggle="collapse" href="#collapseScenariogo_selenium_avalith_web_test4f6b00e1-4c30-412c-9315-bff7d5ecb61f">
+                                    <div>
+
+                                        <div style="padding-right: 30px">
+                                            <i class="glyphicon glyphicon-chevron-right"></i>
+                                            <i class="glyphicon glyphicon-chevron-down"></i>
+                                            <b>Scenario:</b>Contact Us -  Empty full name
+                                        </div>
+                                        <div>
+                            <span class="label-container">
+                              <span class="label label-success"
+                                                               title="6 Steps Passed">6</span>
+                              
+                              
+                              
+                              
+                              
+                            </span>
+                                        </div>
+                                    </div>
+                                    <div><small><i></i></small></div>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseScenariogo_selenium_avalith_web_test4f6b00e1-4c30-412c-9315-bff7d5ecb61f"
+                             class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div></div>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">Given </span>
+                          <span> accedo a la pagina principal</span>
+                            
+                          
+                              <span class="step-duration">
+                               688ms
+                              </span>
+                            
+                         
+                          <!-- Adding data table data-->
+                          
+                      </span>
+                                
+                                
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">When </span>
+                          <span> hago click en el menu</span>
+                            
+                          
+                              <span class="step-duration">
+                               159ms
+                              </span>
+                            
+                         
+                          <!-- Adding data table data-->
+                          
+                      </span>
+                                
+                                
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">And </span>
+                          <span> hago click en el enlace Contact Us</span>
+                            
+                          
+                              <span class="step-duration">
+                               292ms
+                              </span>
+                            
+                         
+                          <!-- Adding data table data-->
+                          
+                      </span>
+                                
+                                
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">And </span>
+                          <span> ingreso nombre &quot;&quot; e-mail &quot;testing@avalith.net&quot; y mensaje &quot;Este es un mensaje de prueba de al menos 20 caracteres&quot;</span>
+                            
+                          
+                              <span class="step-duration">
+                               252ms
+                              </span>
+                            
+                         
+                          <!-- Adding data table data-->
+                          
+                      </span>
+                                
+                                
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">And </span>
+                          <span> al hacer click en Send It</span>
+                            
+                          
+                              <span class="step-duration">
+                               47ms
                               </span>
                             
                          
@@ -1499,11 +2156,11 @@ pre {
                                     
                                     <span class="text">
                         <span class="keyword highlight">Then </span>
-                          <span> aparece un mensaje &quot;The email you entered is not valid.&quot;</span>
+                          <span> aparece un mensaje de error &quot;fill in all fields&quot;</span>
                             
                           
                               <span class="step-duration">
-                               20ms
+                               22ms
                               </span>
                             
                          
@@ -1561,8 +2218,8 @@ pre {
         google.load("visualization", "1", {packages: ["corechart"]});
         google.setOnLoadCallback(function() {drawChart({
                                                             "title" : "Features",
-                                                            "failed" : 0,
-                                                            "passed" : 1,
+                                                            "failed" : 1,
+                                                            "passed" : 0,
                                                             "notdefined" : 0,
                                                             "pending" : 0,
                                                             "skipped" : 0,
@@ -1571,9 +2228,9 @@ pre {
                                             });
         google.setOnLoadCallback(function() {drawChart({
                                                             "title" : "Scenarios",
-                                                            "failed" : 0,
+                                                            "failed" : 2,
                                                             "passed" : 6,
-                                                            "notdefined" : 0,
+                                                            "notdefined" : 1,
                                                             "pending" : 0,
                                                             "skipped" : 0,
                                                             "ambiguous" : 0

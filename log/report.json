@@ -26,11 +26,11 @@
                         "name": "accedo a la pagina principal",
                         "line": 7,
                         "match": {
-                            "location": "navigation_test.go:17"
+                            "location": "navigation_test.go:18"
                         },
                         "result": {
                             "status": "passed",
-                            "duration": 2016234000
+                            "duration": 865660700
                         }
                     },
                     {
@@ -38,11 +38,11 @@
                         "name": "hago click en el menu",
                         "line": 8,
                         "match": {
-                            "location": "navigation_test.go:24"
+                            "location": "navigation_test.go:26"
                         },
                         "result": {
                             "status": "passed",
-                            "duration": 33346000
+                            "duration": 86713500
                         }
                     },
                     {
@@ -50,11 +50,10 @@
                         "name": "hago click en el enlance About Us",
                         "line": 9,
                         "match": {
-                            "location": "navigation_test.go:34"
+                            "location": "feature/navigation.feature:9"
                         },
                         "result": {
-                            "status": "passed",
-                            "duration": 97489800
+                            "status": "undefined"
                         }
                     },
                     {
@@ -62,11 +61,10 @@
                         "name": "estoy en la página About Us con texto \"Two brothers with the same passion, the same dream: building their careers and enhancing the IT industry.\"",
                         "line": 10,
                         "match": {
-                            "location": "navigation_test.go:93"
+                            "location": "navigation_test.go:125"
                         },
                         "result": {
-                            "status": "passed",
-                            "duration": 453650600
+                            "status": "skipped"
                         }
                     }
                 ]
@@ -90,11 +88,11 @@
                         "name": "accedo a la pagina principal",
                         "line": 14,
                         "match": {
-                            "location": "navigation_test.go:17"
+                            "location": "navigation_test.go:18"
                         },
                         "result": {
                             "status": "passed",
-                            "duration": 2002744700
+                            "duration": 687947700
                         }
                     },
                     {
@@ -102,11 +100,11 @@
                         "name": "hago click en el menu",
                         "line": 15,
                         "match": {
-                            "location": "navigation_test.go:24"
+                            "location": "navigation_test.go:26"
                         },
                         "result": {
                             "status": "passed",
-                            "duration": 32195000
+                            "duration": 201649100
                         }
                     },
                     {
@@ -114,11 +112,11 @@
                         "name": "hago click en el enlace Services",
                         "line": 16,
                         "match": {
-                            "location": "navigation_test.go:46"
+                            "location": "navigation_test.go:50"
                         },
                         "result": {
                             "status": "passed",
-                            "duration": 99165900
+                            "duration": 299532200
                         }
                     },
                     {
@@ -126,11 +124,11 @@
                         "name": "estoy en la página Services con texto \"From Avalith we offer you support at times where you need it most, with complete support for all your projects.\"",
                         "line": 17,
                         "match": {
-                            "location": "navigation_test.go:107"
+                            "location": "navigation_test.go:141"
                         },
                         "result": {
                             "status": "passed",
-                            "duration": 340514800
+                            "duration": 57865700
                         }
                     }
                 ]
@@ -154,11 +152,11 @@
                         "name": "accedo a la pagina principal",
                         "line": 21,
                         "match": {
-                            "location": "navigation_test.go:17"
+                            "location": "navigation_test.go:18"
                         },
                         "result": {
                             "status": "passed",
-                            "duration": 2010630600
+                            "duration": 769511000
                         }
                     },
                     {
@@ -166,11 +164,11 @@
                         "name": "hago click en el menu",
                         "line": 22,
                         "match": {
-                            "location": "navigation_test.go:24"
+                            "location": "navigation_test.go:26"
                         },
                         "result": {
                             "status": "passed",
-                            "duration": 33854300
+                            "duration": 118367000
                         }
                     },
                     {
@@ -178,11 +176,11 @@
                         "name": "hago click en el enlace careers",
                         "line": 23,
                         "match": {
-                            "location": "navigation_test.go:59"
+                            "location": "navigation_test.go:64"
                         },
                         "result": {
                             "status": "passed",
-                            "duration": 100713700
+                            "duration": 267137100
                         }
                     },
                     {
@@ -190,11 +188,11 @@
                         "name": "estoy en la página careers con texto \"Improve your skills and boost your genius.\"",
                         "line": 24,
                         "match": {
-                            "location": "navigation_test.go:120"
+                            "location": "navigation_test.go:155"
                         },
                         "result": {
                             "status": "passed",
-                            "duration": 428138200
+                            "duration": 27829300
                         }
                     }
                 ]
@@ -218,11 +216,11 @@
                         "name": "accedo a la pagina principal",
                         "line": 28,
                         "match": {
-                            "location": "navigation_test.go:17"
+                            "location": "navigation_test.go:18"
                         },
                         "result": {
                             "status": "passed",
-                            "duration": 2284214100
+                            "duration": 658202300
                         }
                     },
                     {
@@ -230,11 +228,11 @@
                         "name": "hago click en el menu",
                         "line": 29,
                         "match": {
-                            "location": "navigation_test.go:24"
+                            "location": "navigation_test.go:26"
                         },
                         "result": {
                             "status": "passed",
-                            "duration": 30793800
+                            "duration": 147018300
                         }
                     },
                     {
@@ -242,11 +240,11 @@
                         "name": "hago click en el enlace our partners",
                         "line": 30,
                         "match": {
-                            "location": "navigation_test.go:70"
+                            "location": "navigation_test.go:76"
                         },
                         "result": {
                             "status": "passed",
-                            "duration": 95815300
+                            "duration": 342404900
                         }
                     },
                     {
@@ -254,11 +252,12 @@
                         "name": "estoy en la página Our Partners con texto \"Renowned companies around the world are part of our ally network. We have more than 50 Partners who rely on us for software development.\"",
                         "line": 31,
                         "match": {
-                            "location": "navigation_test.go:133"
+                            "location": "navigation_test.go:169"
                         },
                         "result": {
-                            "status": "passed",
-                            "duration": 354524200
+                            "status": "failed",
+                            "error_message": "runtime error: invalid memory address or nil pointer dereference",
+                            "duration": 10016856900
                         }
                     }
                 ]
@@ -282,11 +281,11 @@
                         "name": "accedo a la pagina principal",
                         "line": 35,
                         "match": {
-                            "location": "navigation_test.go:17"
+                            "location": "navigation_test.go:18"
                         },
                         "result": {
                             "status": "passed",
-                            "duration": 2193896900
+                            "duration": 696442100
                         }
                     },
                     {
@@ -294,11 +293,11 @@
                         "name": "hago click en el menu",
                         "line": 36,
                         "match": {
-                            "location": "navigation_test.go:24"
+                            "location": "navigation_test.go:26"
                         },
                         "result": {
                             "status": "passed",
-                            "duration": 32647100
+                            "duration": 149646700
                         }
                     },
                     {
@@ -306,11 +305,11 @@
                         "name": "hago click en el enlace Contact Us",
                         "line": 37,
                         "match": {
-                            "location": "navigation_test.go:82"
+                            "location": "navigation_test.go:89"
                         },
                         "result": {
                             "status": "passed",
-                            "duration": 97826000
+                            "duration": 231178700
                         }
                     },
                     {
@@ -318,25 +317,25 @@
                         "name": "estoy en la página Contact Us con texto \"We want to know more about you!. Write to us at hello@avalith.net or leave us your information and we will get in touch!\"",
                         "line": 38,
                         "match": {
-                            "location": "navigation_test.go:145"
+                            "location": "navigation_test.go:183"
                         },
                         "result": {
                             "status": "passed",
-                            "duration": 202921000
+                            "duration": 64545400
                         }
                     }
                 ]
             },
             {
-                "id": "navegación;email-inválido",
+                "id": "navegación;privacy-policy",
                 "keyword": "Scenario",
-                "name": "Email inválido",
+                "name": "Privacy Policy",
                 "description": "",
                 "line": 41,
                 "type": "scenario",
                 "tags": [
                     {
-                        "name": "@InvalidEmailSubscription",
+                        "name": "@PrivacyPolicy",
                         "line": 40
                     }
                 ],
@@ -346,47 +345,240 @@
                         "name": "accedo a la pagina principal",
                         "line": 42,
                         "match": {
-                            "location": "navigation_test.go:17"
+                            "location": "navigation_test.go:18"
                         },
                         "result": {
                             "status": "passed",
-                            "duration": 2257371600
+                            "duration": 505554600
+                        }
+                    },
+                    {
+                        "keyword": "When ",
+                        "name": "hago click en privacy policy",
+                        "line": 43,
+                        "match": {
+                            "location": "navigation_test.go:101"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 223559400
+                        }
+                    },
+                    {
+                        "keyword": "Then ",
+                        "name": "estoy en la pagina de privacy policy con titulo \"We collect different types of information for various purposes, including but not limited to providing and improving our Site and services.\"",
+                        "line": 44,
+                        "match": {
+                            "location": "navigation_test.go:198"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 308755500
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "navegación;terms-of-use",
+                "keyword": "Scenario",
+                "name": "Terms of use",
+                "description": "",
+                "line": 47,
+                "type": "scenario",
+                "tags": [
+                    {
+                        "name": "@TermsOfUse",
+                        "line": 46
+                    }
+                ],
+                "steps": [
+                    {
+                        "keyword": "Given ",
+                        "name": "accedo a la pagina principal",
+                        "line": 48,
+                        "match": {
+                            "location": "navigation_test.go:18"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 495282900
+                        }
+                    },
+                    {
+                        "keyword": "When ",
+                        "name": "hago click en terms of use",
+                        "line": 49,
+                        "match": {
+                            "location": "navigation_test.go:113"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 222516900
+                        }
+                    },
+                    {
+                        "keyword": "Then ",
+                        "name": "estoy en la pagina de terms of use con titulo \"Site Rules\"",
+                        "line": 50,
+                        "match": {
+                            "location": "navigation_test.go:213"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 98706800
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "navegación;email-inválido",
+                "keyword": "Scenario",
+                "name": "Email inválido",
+                "description": "",
+                "line": 53,
+                "type": "scenario",
+                "tags": [
+                    {
+                        "name": "@InvalidEmailSubscription",
+                        "line": 52
+                    }
+                ],
+                "steps": [
+                    {
+                        "keyword": "Given ",
+                        "name": "accedo a la pagina principal",
+                        "line": 54,
+                        "match": {
+                            "location": "navigation_test.go:18"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 671455700
                         }
                     },
                     {
                         "keyword": "When ",
                         "name": "ingreso un email con formato incorrecto \"invalidemail@avalith\"",
-                        "line": 43,
+                        "line": 55,
                         "match": {
-                            "location": "navigation_test.go:159"
+                            "location": "navigation_test.go:227"
                         },
                         "result": {
                             "status": "passed",
-                            "duration": 57262400
+                            "duration": 141995100
                         }
                     },
                     {
                         "keyword": "And ",
                         "name": "al hacer click en el botón 'Suscribe'",
-                        "line": 44,
+                        "line": 56,
                         "match": {
-                            "location": "navigation_test.go:170"
+                            "location": "navigation_test.go:239"
                         },
                         "result": {
                             "status": "passed",
-                            "duration": 33091600
+                            "duration": 83139400
                         }
                     },
                     {
                         "keyword": "Then ",
                         "name": "aparece un mensaje \"The email you entered is not valid.\"",
-                        "line": 45,
+                        "line": 57,
                         "match": {
-                            "location": "navigation_test.go:180"
+                            "location": "navigation_test.go:250"
+                        },
+                        "result": {
+                            "status": "failed",
+                            "error_message": "runtime error: invalid memory address or nil pointer dereference",
+                            "duration": 5062887200
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "navegación;contact-us----empty-full-name",
+                "keyword": "Scenario",
+                "name": "Contact Us -  Empty full name",
+                "description": "",
+                "line": 60,
+                "type": "scenario",
+                "tags": [
+                    {
+                        "name": "@ContactUsAlternative1",
+                        "line": 59
+                    }
+                ],
+                "steps": [
+                    {
+                        "keyword": "Given ",
+                        "name": "accedo a la pagina principal",
+                        "line": 61,
+                        "match": {
+                            "location": "navigation_test.go:18"
                         },
                         "result": {
                             "status": "passed",
-                            "duration": 20280400
+                            "duration": 688837600
+                        }
+                    },
+                    {
+                        "keyword": "When ",
+                        "name": "hago click en el menu",
+                        "line": 62,
+                        "match": {
+                            "location": "navigation_test.go:26"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 159111700
+                        }
+                    },
+                    {
+                        "keyword": "And ",
+                        "name": "hago click en el enlace Contact Us",
+                        "line": 63,
+                        "match": {
+                            "location": "navigation_test.go:89"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 292428200
+                        }
+                    },
+                    {
+                        "keyword": "And ",
+                        "name": "ingreso nombre \"\" e-mail \"testing@avalith.net\" y mensaje \"Este es un mensaje de prueba de al menos 20 caracteres\"",
+                        "line": 64,
+                        "match": {
+                            "location": "navigation_test.go:268"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 252793300
+                        }
+                    },
+                    {
+                        "keyword": "And ",
+                        "name": "al hacer click en Send It",
+                        "line": 65,
+                        "match": {
+                            "location": "navigation_test.go:294"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 47969500
+                        }
+                    },
+                    {
+                        "keyword": "Then ",
+                        "name": "aparece un mensaje de error \"fill in all fields\"",
+                        "line": 66,
+                        "match": {
+                            "location": "navigation_test.go:303"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 22593700
                         }
                     }
                 ]
